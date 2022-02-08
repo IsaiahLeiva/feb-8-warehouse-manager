@@ -8,27 +8,6 @@ const packages = [
     { heavy: true, priority: false, fragile: true, to: 'Jeremy', trackingNumber: 'suz2367' }]
 
 function filterHeavy() {
-    for (let i = 0; i < packages.length; i++) {
-        const packages = packages[i];
-        if (packages.heavy) {
-            heavy.push(packages)
-        }
-    }
-}
-draw()
-
-function priority() {
-
-}
-
-function fragile() {
-
-}
-
-function to() {
-
-}
-
-function trackingNumber() {
-
+    let filteredArray = packages.filter(package => package.heavy == false)
+    console.log(filteredArray)
 }
