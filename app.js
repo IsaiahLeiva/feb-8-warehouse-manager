@@ -13,10 +13,8 @@ function filterHeavy() {
         if (packages.heavy) {
             heavy.push(packages)
         }
-
     }
 }
-
 draw()
 
 function priority() {
