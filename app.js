@@ -9,7 +9,11 @@ const packages = [
 
 
 function draw() {
+    let template = ""
+    for (let i = 0; i < packages.length; i++) {
+        const element = packages[i];
 
+    }
 }
 
 function filterHeavy() {
